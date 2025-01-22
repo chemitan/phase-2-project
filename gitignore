@@ -1,0 +1,42 @@
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders
+venv/
+.env/
+
+# Logs and temporary files
+*.log
+*.temp
+*.tmp
+
+# Sensitive configuration files (e.g., containing API keys)
+*.env
+credentials.json
+
+# Data or large files
+data/
+*.csv.gz
+*.tsv.gz
+*.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+
+# If you have a requirements.txt, ignore pip-tools artifacts
+*.txt~
